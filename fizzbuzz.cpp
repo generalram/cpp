@@ -17,7 +17,7 @@ int main()
             out = "Fizz"; 
         if ((i % 5) == 0)  // i.e. multiple of 5 
             out = "Buzz";
-            if ((i % 3) == 0) // Oops, forgot this
+            if ((i % 15) == 0) // Oops, forgot this
                 out = "FizzBuzz";
         cout << out << endl;
         if ((i % 10 ) == 0)  //self-initative: make it neater, a bit;
